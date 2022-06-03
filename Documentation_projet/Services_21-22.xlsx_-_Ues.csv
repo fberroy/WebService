@@ -1,0 +1,264 @@
+Formation,Semestre,Ref,Intitule,Statut,h/CM,h/TD,h/TP,Effectif,grCM,grTD,grTP,Nom,CM,TD,TP,UC(s),,Fait,Dû,HS
+Licence,1,UEinfo1.1,METHODOLOGIE S1 (UE TRANSVERSALE),obligatoire,2,7,0,,2,4,0,Joiron Céline,2,,,6,,"161,00",192,"-31,00"
+Licence,1,UEinfo1.1,METHODOLOGIE S1 (UE TRANSVERSALE),obligatoire,2,7,0,,2,4,0,Li yu,,,2,0,,"304,00",192,"112,00"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Vasseur Pascal,1,1,2,66,,"194,00",192,"2,00"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Barry Catherine,,1,2,48,,"242,10",192,"50,10"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Delaplace Claire,,1,1,36,,"198,00",192,"6,00"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Tsakou Sulamithe,,2,1,56,,"190,67",64,"126,67"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Li yu,,1,2,48,,"304,00",192,"112,00"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Mauger Clémence,,2,3,72,,"193,33",192,"1,33"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Ambles Audrey,,,2,24,,"64,00",64,"0,00"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Moreau Pierre,,,2,24,,"64,00",64,"0,00"
+Licence,1,UEinfo1.3,BASES DE PROGRAMMATION,obligatoire,12,24,12,301,1,8,16,Labib Youssef,,,1,8,,"178,67",176,"2,67"
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Lazure Dominique,1,,4,"76,5",,"311,00",192,"119,00"
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Guérin Jean-Luc,,,2,36,,"216,00",192,"24,00"
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Caillard Simon,,,2,24,,"195,33",192,"3,33"
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Dupont Vianney,,,1,18,,"18,00",0,
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Li yu,,,1,18,,"304,00",192,"112,00"
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Brisoux Devendeville Laure,,,1,18,,"215,46",192,"23,46"
+Licence,1,UEinfo1.4,EXPERIENCES INFORMATIQUES,obligatoire,3,0,18,277,1,0,17,Labib Youssef,,,3,36,,"178,67",176,"2,67"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Brisoux Devendeville Laure,"0,33",,2,40455,,"215,46",192,"23,46"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Caillard Simon,,,3,36,,"195,33",192,"3,33"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Tsakou Sulamithe,,,,,,"190,67",64,"126,67"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Lazure Dominique,,,2,36,,"311,00",192,"119,00"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Vasseur Pascal,,,1,18,,"194,00",192,"2,00"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Le Mahec Gaël,,,1,18,,"227,00",192,"35,00"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Levé Florence,,,1,18,,"190,00",192,"-2,00"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Mauger Clémence,,,3,36,,"193,33",192,"1,33"
+Licence,1,UEinfo1.5,INTERNET ET WEB,obligatoire,9,0,18,294,1,0,14,Labib Youssef,,,1,12,,"178,67",176,"2,67"
+Licence,2,UEinfo2.1,METHODOLOGIE S2 (UE TRANSVERSALE),obligatoire,0,6,0,,0,7,0,Joiron Céline,,1,,6,,"161,00",192,"-31,00"
+Licence,2,UEinfo2.1,METHODOLOGIE S2 (UE TRANSVERSALE),obligatoire,0,6,0,,0,7,0,Ruzé Emmanuel,,2,,12,,"192,00",192,"0,00"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Furst Frédéric,1,1,2,42,,"240,00",192,"48,00"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Barry Catherine,,1,2,30,,"242,10",192,"50,10"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Caillard Simon,,1,,10,,"195,33",192,"3,33"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Delaplace Claire,,1,1,20,,"198,00",192,"6,00"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Tsakou Sulamithe,,2,1,"26,66666667",,"190,67",64,"126,67"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Mauger Clémence,,2,2,"33,33333333",,"193,33",192,"1,33"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Ambles Audrey,,1,3,40,,"64,00",64,"0,00"
+Licence,2,UEinfo2.3,ALGORITHMIQUE ET PROGRAMMATION,obligatoire,8,10,10,302,1,7,14,Moreau Pierre,,1,3,40,,"64,00",64,"0,00"
+Licence,2,UEinfo2.4,"ARCHITECTURE DES ORDINATEURS, REPRESENTATION DE L'INFORMATION",obligatoire,12,16,0,305,1,7,0,Vasseur Pascal,1,2,,50,,"194,00",192,"2,00"
+Licence,2,UEinfo2.4,"ARCHITECTURE DES ORDINATEURS, REPRESENTATION DE L'INFORMATION",obligatoire,12,16,0,305,1,7,0,Lazure Dominique,,2,,32,,"311,00",192,"119,00"
+Licence,2,UEinfo2.4,"ARCHITECTURE DES ORDINATEURS, REPRESENTATION DE L'INFORMATION",obligatoire,12,16,0,305,1,7,0,Tsakou Sulamithe,,1,,16,,"190,67",64,"126,67"
+Licence,2,UEinfo2.4,"ARCHITECTURE DES ORDINATEURS, REPRESENTATION DE L'INFORMATION",obligatoire,12,16,0,305,1,7,0,Labib Youssef,,2,,32,,"178,67",176,"2,67"
+Licence,2,UEinfo2.5,INITIATION AUX BASES DE DONNEES,obligatoire,8,20,0,297,1,7,0,Joiron Céline,1,2,,52,,"161,00",192,"-31,00"
+Licence,2,UEinfo2.5,INITIATION AUX BASES DE DONNEES,obligatoire,8,20,0,297,1,7,0,Devismes Stéphane,,1,,20,,"219,50",192,"27,50"
+Licence,2,UEinfo2.5,INITIATION AUX BASES DE DONNEES,obligatoire,8,20,0,297,1,7,0,Caillard Simon,,2,,40,,"195,33",192,"3,33"
+Licence,2,UEinfo2.5,INITIATION AUX BASES DE DONNEES,obligatoire,8,20,0,297,1,7,0,Tsakou Sulamithe,,3,,60,,"190,67",64,"126,67"
+Licence,2,UEinfo2.5,INITIATION AUX BASES DE DONNEES,obligatoire,8,20,0,297,1,7,0,Mauger Clémence,,1,,20,,"193,33",192,"1,33"
+Licence,2,UEinfo2.5,INITIATION AUX BASES DE DONNEES,obligatoire,8,20,0,297,1,7,0,Brisoux Devendeville Laure,,2,,40,,"215,46",192,"23,46"
+Licence,2,UEinfo2.6,ELEMENTS DE LOGIQUE FORMELLE ET DU RAISONNEMENT MATHEMATIQUE,obligatoire,12,16,0,238,1,6,0,Tsakou Sulamithe,,2,,32,,"190,67",64,"126,67"
+Licence,2,UEinfo2.6,ELEMENTS DE LOGIQUE FORMELLE ET DU RAISONNEMENT MATHEMATIQUE,obligatoire,12,16,0,238,1,6,0,Li yu,1,2,,50,,"304,00",192,"112,00"
+Licence,2,UEinfo2.6,ELEMENTS DE LOGIQUE FORMELLE ET DU RAISONNEMENT MATHEMATIQUE,obligatoire,12,16,0,238,1,6,0,Mauger Clémence,,2,,32,,"193,33",192,"1,33"
+Licence,2,UEinfo2.7,SCILAB / MATLAB,obligatoire,,9,12,130,0,?,?,Rosselle Marilyne,,1,2,33,,"210,00",192,"18,00"
+Licence,3,UEinfo3.1,METHODOLOGIE S3 (UE TRANSVERSALE),obligatoire,,14,0,,0,4,0,Joiron Céline,,2,,28,,"161,00",192,"-31,00"
+Licence,3,UEinfo3.1,METHODOLOGIE S3 (UE TRANSVERSALE),obligatoire,,14,0,,0,4,0,Irastorza Christine,,2,,28,,"262,00",192,"70,00"
+Licence,3,UEinfo3.2,STRUCTURES DE DONNEES FONDAMENTALES,obligatoire,26,34,10,139,1,4,8,Semé David,1,1,2,93,,"206,00",192,"14,00"
+Licence,3,UEinfo3.2,STRUCTURES DE DONNEES FONDAMENTALES,obligatoire,26,34,10,139,1,4,8,Irastorza Christine,,1,2,54,,"262,00",192,"70,00"
+Licence,3,UEinfo3.2,STRUCTURES DE DONNEES FONDAMENTALES,obligatoire,26,34,10,139,1,4,8,Sbai Anass,,1,2,"47,33333333",,"194,00",192,"2,00"
+Licence,3,UEinfo3.3,BASES DE DONNEES RELATIONNELLES,obligatoire,16,24,20,141,1,4,8,Brisoux Devendeville Laure,1,1,1,68,,"215,46",192,"23,46"
+Licence,3,UEinfo3.3,BASES DE DONNEES RELATIONNELLES,obligatoire,16,24,20,141,1,4,8,Utard Gil,,1,2,64,,"364,00",192,"172,00"
+Licence,3,UEinfo3.3,BASES DE DONNEES RELATIONNELLES,obligatoire,16,24,20,141,1,4,8,Barry Catherine,,1,2,64,,"242,10",192,"50,10"
+Licence,3,UEinfo3.3,BASES DE DONNEES RELATIONNELLES,obligatoire,16,24,20,141,1,4,8,Caillard Simon,,1,2,"50,66666667",,"195,33",192,"3,33"
+Licence,3,UEinfo3.3,BASES DE DONNEES RELATIONNELLES,obligatoire,16,24,20,141,1,4,8,Labib Youssef,,,1,"13,33333333",,"178,67",176,"2,67"
+Licence,3,UEinfo3.4,PROGRAMMATION ET LANGAGE C,obligatoire,18,18,24,129,1,4,8,Levé Florence,1,1,2,93,,"190,00",192,"-2,00"
+Licence,3,UEinfo3.4,PROGRAMMATION ET LANGAGE C,obligatoire,18,18,24,129,1,4,8,Ionica Sorina,,1,1,42,,"176,72",192,"-15,28"
+Licence,3,UEinfo3.4,PROGRAMMATION ET LANGAGE C,obligatoire,18,18,24,129,1,4,8,Delaplace Claire,,1,1,42,,"198,00",192,"6,00"
+Licence,3,UEinfo3.4,PROGRAMMATION ET LANGAGE C,obligatoire,18,18,24,129,1,4,8,Sbai Anass,,1,3,66,,"194,00",192,"2,00"
+Licence,3,UEinfo3.5,"ARCHITECTURE DES ORDINATEURS, LANGAGE D'ASSEMBLAGE",optionnelle,6,12,12,103,1,3,6,Semé David,1,1,2,45,,"206,00",192,"14,00"
+Licence,3,UEinfo3.5,"ARCHITECTURE DES ORDINATEURS, LANGAGE D'ASSEMBLAGE",optionnelle,6,12,12,103,1,3,6,Vasseur Pascal,,2,3,60,,"194,00",192,"2,00"
+Licence,3,UEinfo3.6,PROGRAMMATION FONCTIONNELLE,optionnelle,8,12,10,99,1,3,6,Irastorza Christine,1,2,2,56,,"262,00",192,"70,00"
+Licence,3,UEinfo3.6,PROGRAMMATION FONCTIONNELLE,optionnelle,8,12,10,99,1,3,6,Sbai Anass,,1,2,"25,33333333",,"194,00",192,"2,00"
+Licence,3,UEinfo3.7,BASES DE GESTION: ORGANISATION DE L'ENTREPRISE ET FONCTION COMMERCIALE,optionnelle,10,20,0,67,1,1,0,Sclafer Sébastien,1,1,,35,,"70,00",0,
+Licence,4,UEinfo4.1,METHODOLOGIE S4 (UE TRANSVERSALES),obligatoire,,14,,,,4,,Irastorza Christine,,2,,28,,"262,00",192,"70,00"
+Licence,4,UEinfo4.1,CYCLE DE CONFERENCES SCIENTIFIQUES,obligatoire,,,,,,,,,,,,,,,,
+Licence,4,UEinfo4.2,ALGORITHMIQUE DES GRAPHES,obligatoire,22,30,8,139,1,4,8,Cournier Alain,1,2,2,109,,"248,50",192,"56,50"
+Licence,4,UEinfo4.2,ALGORITHMIQUE DES GRAPHES,obligatoire,22,30,8,139,1,4,8,Giakoumakis Vassilios,,1,4,62,,"199,00",192,"7,00"
+Licence,4,UEinfo4.2,ALGORITHMIQUE DES GRAPHES,obligatoire,22,30,8,139,1,4,8,Devismes Stéphane,,1,2,46,,"219,50",192,"27,50"
+Licence,4,UEinfo4.3,PROGRAMMATION OBJET 1,obligatoire,16,26,18,136,1,4,8,Guérin Jean-Luc,1,1,2,86,,"216,00",192,"24,00"
+Licence,4,UEinfo4.3,PROGRAMMATION OBJET 1,obligatoire,16,26,18,136,1,4,8,Irastorza Christine,,1,2,62,,"262,00",192,"70,00"
+Licence,4,UEinfo4.3,PROGRAMMATION OBJET 1,obligatoire,16,26,18,136,1,4,8,Furst Frédéric,,1,2,62,,"240,00",192,"48,00"
+Licence,4,UEinfo4.4,SYSTEME D'EXPLOITATION,obligatoire,16,16,28,136,1,4,8,Devismes Stéphane,,1,1,44,,"219,50",192,"27,50"
+Licence,4,UEinfo4.4,SYSTEME D'EXPLOITATION,obligatoire,16,16,28,136,1,4,8,Caillard Simon,,1,1,"34,66666667",,"195,33",192,"3,33"
+Licence,4,UEinfo4.4,SYSTEME D'EXPLOITATION,obligatoire,16,16,28,136,1,4,8,Dequen Gilles,1,2,4,168,,"242,00",192,"50,00"
+Licence,4,UEinfo4.4,SYSTEME D'EXPLOITATION,obligatoire,16,16,28,136,1,4,8,Labib Youssef,,,2,"37,33333333",,"178,67",176,"2,67"
+Licence,4,UEinfo4.5,PROGRAMMATION WEB,optionnelle,10,0,20,125,1,0,8,Dieudonné Yoann,1,,4,95,,"231,00",192,"39,00"
+Licence,4,UEinfo4.5,PROGRAMMATION WEB,optionnelle,10,0,20,125,1,0,8,Delaplace Claire,,,1,20,,"198,00",192,"6,00"
+Licence,4,UEinfo4.5,PROGRAMMATION WEB,optionnelle,10,0,20,125,1,0,8,Labib Youssef,,,3,40,,"178,67",176,"2,67"
+Licence,4,UEinfo4.6,ALGORITHMIQUE AVANCE,optionnelle,8,14,8,76,1,2,4,Delaplace Claire,,1,1,22,,"198,00",192,"6,00"
+Licence,4,UEinfo4.6,ALGORITHMIQUE AVANCE,optionnelle,8,14,8,76,1,2,4,Sbai Anass,,1,3,30,,"194,00",192,"2,00"
+Licence,4,UEinfo4.7,SYSTEME D'INFORMATION COMPTABLE,optionnelle,10,20,0,58,1,1,0,Sclafer Sébastien,1,1,,35,,"70,00",0,
+Licence,5,UEinfo5.01,PREPARATION A L'INSERTION PROFESSIONNELLE (UE TRANSVERSALE),obligatoire,0,14,0,,0,2,0,Joiron Céline,,1,,14,,"161,00",192,"-31,00"
+Licence,5,UEinfo5.02,PIX (UE TRANSVERSALE),obligatoire,2,0,3,,1,0,2,Joiron Céline,1,,,3,,"161,00",192,"-31,00"
+Licence,5,UEinfo5.2,LANGAGES FORMELS,obligatoire,10,20,0,65,1,3,0,Levé Florence,1,"1,5",,45,,"190,00",192,"-2,00"
+Licence,5,UEinfo5.2,LANGAGES FORMELS,obligatoire,10,20,0,65,1,3,0,Giakoumakis Vassilios,,"1,5",,30,,"199,00",192,"7,00"
+Licence,5,UEinfo5.3,THEORIE DU SYSTEME 1,obligatoire,10,10,10,64,1,3,6,Utard Gil,1,2,4,75,,"364,00",192,"172,00"
+Licence,5,UEinfo5.4,THEORIE DU SYSTEME 2,obligatoire parcours Info,10,10,10,65,1,2,4,Utard Gil,1,2,4,75,,"364,00",192,"172,00"
+Licence,5,UEinfo5.5,MODELISATION OBJET,"obligatoire parcours MIAGE
+optionnelle parcours Info",8,12,10,61,1,3,6,Rosselle Marilyne,1,1,2,44,,"210,00",192,"18,00"
+Licence,5,UEinfo5.5,MODELISATION OBJET,"obligatoire parcours MIAGE
+optionnelle parcours Info",8,12,10,61,1,3,6,Sbai Anass,,1,2,"25,33333333",,"194,00",192,"2,00"
+Licence,5,UEinfo5.6,PROGRAMMATION OBJET 2,"obligatoire parcours MIAGE
+optionnelle parcours Info",4,26,0,63,1,3,0,Ionica Sorina,1,2,,58,,"176,72",192,"-15,28"
+Licence,5,UEinfo5.7,METHODE D'ANALYSE ET DE CONCEPTION DE SYSTEME D'INFORMATIONS,"obligatoire parcours MIAGE
+optionnelle parcours Info",8,22,0,60,1,3,0,Barry Catherine,"0,5",2,,50,,"242,10",192,"50,10"
+Licence,5,UEinfo5.7,METHODE D'ANALYSE ET DE CONCEPTION DE SYSTEME D'INFORMATIONS,"obligatoire parcours MIAGE
+optionnelle parcours Info",8,22,0,60,1,3,0,Lapujade Anne,"0,5",1,,28,,"288,10",192,"96,10"
+Licence,5,UEinfo5.8,FRAMEWORK WEB,optionnelle,4,0,26,61,1,0,6,Dieudonné Yoann,"0,5",,3,81,,"231,00",192,"39,00"
+Licence,5,UEinfo5.8,FRAMEWORK WEB,optionnelle,4,0,26,61,1,0,6,Devismes Stéphane,"0,5",,3,81,,"219,50",192,"27,50"
+Licence,5,UEinfo5.9,METHODES FORMELLES D'AIDE A LA DETECTION D'ERREURS,optionnelle,12,18,0,13,1,1,0,Cournier Alain,1,1,,36,,"248,50",192,"56,50"
+Licence,5,UEinfo5.10,PROGRAMMATION DES SYSTEMES D'INFORMATIONS,obligatoire parcours Info,10,0,20,35,1,0,2,Le Mahec Gaël,1,,2,55,,"227,00",192,"35,00"
+Licence,5,UEinfo5.11,SYSTEME D'INFORMATIONS FINANCIERES,obligatoire parcours MIAGE,10,20,0,35,1,2,0,Pomart Pascal,1,2,,55,,"90,00",0,
+Licence,5,UEinfo5.12,MATHEMATIQUES FINANCIERES,obligatoire parcours MIAGE,12,18,0,35,1,2,0,Del Castillo Pierre,1,2,,54,,"54,00",0,
+Licence,5,UEinfo5.13,COMPLEMENTS INFORMATIQUES,obligatoire parcours REL,20,40,0,0,0,0,0,,,,,,,,,
+Licence,5,UEinfo1.3,BASES DE PROGRAMMATION - REL,obligatoire parcours REL,12,24,12,0,0,0,0,,,,,,,,,
+Licence,6,UEinfo6.1,STAGE 8 SEMAINES,obligatoire,,,,70,,,,,,,,,,,,
+Licence,6,UEinfo6.2,RESEAU,obligatoire,20,22,18,118,1,3,6,Badreddine Wafa,1,3,6,204,,"239,00",192,"47,00"
+Licence,6,UEinfo6.3,PROJET,obligatoire,6,14,40,118,1,3,6,Rosselle Marilyne,1,1,1,63,,"210,00",192,"18,00"
+Licence,6,UEinfo6.3,PROJET,obligatoire,6,14,40,118,1,3,6,Lazure Dominique,,,1,40,,"311,00",192,"119,00"
+Licence,6,UEinfo6.3,PROJET,obligatoire,6,14,40,118,1,3,6,Li Yu,,1,2,94,,"304,00",192,"112,00"
+Licence,6,UEinfo6.3,PROJET,obligatoire,6,14,40,118,1,3,6,Li Yu,,1,2,94,,"304,00",192,"112,00"
+Licence,6,UEinfo6.4,INTELLIGENCE ARTIFICIELLE,optionnelle,8,10,12,93,1,2,4,Furst Frédéric,"0,5","0,8","2,666666667",46,,"240,00",192,"48,00"
+Licence,6,UEinfo6.4,INTELLIGENCE ARTIFICIELLE,optionnelle,8,10,12,93,1,2,4,Irastorza Christine,"0,5","1,2","1,333333333",34,,"262,00",192,"70,00"
+Licence,6,UEinfo6.5,COMPILATION,optionnelle,14,16,0,51,1,1,0,Giakoumakis Vassilios,1,1,,37,,"199,00",192,"7,00"
+Licence,6,UEinfo6.6,METHODES QUANTITATIVES ET DECISION,optionnelle,12,14,4,35,1,2,4,Hifi Mhand,1,2,4,62,,"196,00",192,"4,00"
+Licence,6,UEinfo6.8,XML,optionnelle,10,0,20,69,1,0,4,Dieudonné Yoann,1,,2,55,,"231,00",192,"39,00"
+Licence,6,UEinfo6.9,INITIATION A LA CRYPTOLOGIE ET AU CALCUL DISTRIBUE,optionnelle parcours Info,8,22,0,45,1,2,0,Cournier Alain,"0,5","0,5",,17,,"248,50",192,"56,50"
+Licence,6,UEinfo6.9,INITIATION A LA CRYPTOLOGIE ET AU CALCUL DISTRIBUE,optionnelle parcours Info,8,22,0,45,1,2,0,Dequen Gilles,"0,5",1,,28,,"242,00",192,"50,00"
+Licence,6,UEinfo6.9,INITIATION A LA CRYPTOLOGIE ET AU CALCUL DISTRIBUE,optionnelle parcours Info,8,22,0,45,1,2,0,Devismes Stéphane,,"0,5",,11,,"219,50",192,"27,50"
+Licence,6,UEinfo6.7,SYSTEME D'INFORMATION POUR LA GESTION,obligatoire parcours MIAGE,10,20,0,35,1,1,0,Pomart Pascal,1,1,,35,,"90,00",0,
+Licence,Foad,B211,Programmation événementielle et Interfaces Homme-Machine,,,20,,,,1,0,,,,,,,,,
+Licence,Foad,B212,Programmation orientée objet-Java,,,20,,,,1,,Choplin Sébastien,,1,,20,,"204,00",192,"12,00"
+Licence,Foad,B222,Bases de télécommunications,,,20,,,,1,,Choplin Sébastien,,1,,20,,"204,00",192,"12,00"
+Licence,Foad,B104,Graphes,,,20,,,,1,,,,,,,,,,
+Master Info,1,"7,1",Conduite de projet,Obligatoire,8,22,,40,1,1,0,Levé Florence,1,1,,34,,"190,00",192,"-2,00"
+Master Info,1,"7,2",Programmation événementielle,Obligatoire,10,10,10,40,1,1,1,Utard Gil,1,1,1,35,,"364,00",192,"172,00"
+Master Info,1,"7,3",Administration des SE,Obligatoire,8,22,,40,1,1,0,Le Mahec Gaël,"0,5","0,5",,17,,"227,00",192,"35,00"
+Master Info,1,"7,3",Administration des SE,Obligatoire,8,22,,40,1,1,0,Lazure Dominique,"0,5","0,5",,17,,"311,00",192,"119,00"
+Master Info,1,"7,4",Découverte de la recherche,Obligatoire,8,22,,40,1,1,0,Dequen Gilles,1,1,,34,,"242,00",192,"50,00"
+Master Info,1,"7,5",Cryptographie,Obligatoire,10,10,10,40,1,1,1,Ionica Sorina,"0,5","0,5","0,5","17,5",,"176,72",192,"-15,28"
+Master Info,1,"7,5",Cryptographie,Obligatoire,10,10,10,40,1,1,1,Delaplace Claire,"0,5","0,5","0,5","17,5",,"198,00",192,"6,00"
+Master Info,1,"7,6",Architecture des Systèmes d'Information,Optionnel,0,30,0,20,0,1,0,Ionica Sorina,,1,,30,,"176,72",192,"-15,28"
+Master Info,1,"7,7",Administration des parcs hétérogènes,Optionnel,10,10,10,20,1,1,1,Vaniet Pascal,1,1,1,35,,"52,50",0,
+Master Info,1,"7,8",Réseaux et communications,Optionnel,10,10,10,20,1,1,1,Giakoumakis Vassilios,1,1,1,35,,"199,00",192,"7,00"
+Master Info,1,"7,9",Complexités,Optionnel,10,10,10,20,1,1,1,Cournier Alain,1,1,1,35,,"248,50",192,"56,50"
+Master Info,1,7.1,Systèmes distribués 1,Optionnel,10,10,10,20,1,1,1,Cournier Alain,"0,5","0,5","0,5","17,5",,"248,50",192,"56,50"
+Master Info,1,7.1,Systèmes distribués 1,Optionnel,10,10,10,20,1,1,1,Devismes Stéphane,"0,5","0,5","0,5","17,5",,"219,50",192,"27,50"
+Master Info,1,"7,11",Initiation à la modélisation linéaire,Optionnel,10,10,10,20,1,1,1,,,,,,,,,
+Master Info,2,"8,1",BD et Big Data,Obligatoire,10,10,10,40,1,1,1,utard Gil,1,1,1,35,,"364,00",192,"172,00"
+Master Info,2,"8,2",Projet de spécialité,Obligatoire,,10,20,40,,1,1,lazure Dominique,,"0,5","0,5",15,,"311,00",192,"119,00"
+Master Info,2,"8,2",Projet de spécialité,Obligatoire,,10,20,40,,1,1,Brisoux Devendeville Laure,,"0,5","0,5",15,,"215,46",192,"23,46"
+Master Info,2,"8,3",Séminaires ,Obligatoire,30,,,40,1,0,0,Utard Gil,"1,00",,,45,,"364,00",192,"172,00"
+Master Info,2,"8,4",Sécurisation des réseaux,Obligatoire,12,,18,40,1,,1,Delaplace Claire,"0,5",,"0,5",18,,"198,00",192,"6,00"
+Master Info,2,"8,4",Sécurisation des réseaux,Obligatoire,12,,18,40,1,,1,Ionica Sorina,"0,5",,"0,5",18,,"176,72",192,"-15,28"
+Master Info,2,"8,5",Anglais,Obligatoire,,40,,40,1,1,1,Vasseur Sébastien,1,1,1,40,,"40,00",0,
+Master Info,2,"8,6",Contrôle Qualité,Optionnel,8,22,,18,1,1,,Cournier Alain,1,1,,34,,"248,50",192,"56,50"
+Master Info,2,"8,7",Découverte des laboratoires,Optionnel,8,22,,17,1,1,0,Ionica Sorina,"0,33","0,33",,"11,22",,"176,72",192,"-15,28"
+Master Info,2,"8,8",Administration des systèmes d’exploitation 2,Optionnel,10,10,10,18,1,1,1,Le Mahec Gaël,"0,5","0,5","0,5","17,5",,"227,00",192,"35,00"
+Master Info,2,"8,8",Administration des systèmes d’exploitation 2,Optionnel,10,10,10,18,1,1,1,Lazure Dominique,"0,5","0,5","0,5","17,5",,"311,00",192,"119,00"
+Master Info,2,"8,9",Services réseaux,Optionnel,10,10,10,18,1,1,1,Vaniet Pascal,"0,5","0,5","0,5","17,5",,"52,50",0,
+Master Info,2,8.1,Systèmes distribués avec fautes,Optionnel,10,10,10,18,1,1,1,,,,,,,,,
+Master Info,2,8.11,Acquisition et traitement d'images,Optionnel,16,12,12,10,0,0,0,Caron Guillaume,,,,,,"0,00",0,
+Master Info,2,8.12,Architecture client/serveur,Optionnel,8,22,,20,1,1,0,Semé David,1,1,,34,,"206,00",192,"14,00"
+Master Info,2,8.13,Risques et déontologie,Optionnel,30,,,10,1,1,1,Le Mahec Gaël,"0,5","0,5","0,5","22,5",,"227,00",192,"35,00"
+Master Info,2,8.13,Risques et déontologie,Optionnel,30,,,10,1,1,1,Delaplace Claire,"0,5","0,5","0,5","22,5",,"198,00",192,"6,00"
+Master Info,2,8.14,Projet Professionnel,Optionnel,,,,40,,,,,,,,,,,,
+Master Info,3,9.1,Projet thématique 1,Obligatoire,,,30,40,,,2,Lazure Dominique,,,1,30,,"311,00",192,"119,00"
+Master Info,3,9.1,Projet thématique 1,Obligatoire,,,30,40,,,2,Le Mahec Gaël,,,1,30,,"227,00",192,"35,00"
+Master Info,3,9.2,Optimisation et heuristiques pour les réseaux,Obligatoire,10,10,10,40,1,1,2,Giakoumakis Vassilios,1,1,1,35,,"199,00",192,"7,00"
+Master Info,3,9.3,Internet des objets ,Obligatoire,10,10,10,40,1,1,2,Durand David,1,1,2,45,,"75,00",0,
+Master Info,3,9.4,Anglais,Obligatoire,,40,,40,0,1,0,,,,,,,,,
+Master Info,3,9.5,Hébergement,Obligatoire,10,10,10,30,1,1,2,Utard Gil,1,1,1,35,,"364,00",192,"172,00"
+Master Info,3,9.6,Virtualisation,Optionnel,10,10,10,30,1,1,2,,,,,,,,,
+Master Info,3,9.7,Infrastructure des réseaux locaux et d'internet,Optionnel,10,10,10,30,1,1,2,,,,,,,,,
+Master Info,3,9.8,Architectures sécurisées,Optionnel,10,10,10,30,1,1,2,,,,,,,,,
+Master Info,3,9.9,Systèmes distribués 2,Optionnel,10,10,10,10,1,1,1,,,,,,,,,
+Master Info,3,9.1,Algorithmique mobile,Optionnel,10,10,10,10,1,1,1,,,,,,,,,
+Master Info,3,9.11,Localisation et navigation des robots,Optionnel,16,12,12,23,1,1,1,,,,,,,,,
+Master Info,3,9.12,Perception distribuée : fondements,Optionnel,14,13,13,10,1,1,1,,,,,,,,,
+Master Info,4,10.1,Projet thématique 2,Obligatoire,,,30,40,,,2,Lazure Dominique,,,1,30,,"311,00",192,"119,00"
+Master Info,4,10.1,Projet thématique 2,Obligatoire,,,30,40,,,2,Le Mahec Gaël,,,1,30,,"227,00",192,"35,00"
+Master Info,4,10.2,Convergence et terminaux mobiles,Optionnel,10,10,10,30,1,1,2,Badreddine Wafa,1,1,1,35,,"239,00",192,"47,00"
+Master Info,4,10.3,Marchés professionnels et bilan de compétences,Optionnel,30,,,30,1,1,2,,,,,,,,,
+Master Info,4,10.4,Infrastructures du calcul distribué,Optionnel,10,10,10,30,1,1,2,Le Mahec Gaël,"0,4","0,4",1,20,,"227,00",192,"35,00"
+Master Info,4,10.5,Haute disponibilté,Optionnel,10,10,10,30,1,1,2,,,,,,,,,
+Master Info,4,10.6,Projet Professionnel (annuel),Optionnel,,,,30,,,,,,,,,,,,
+Master Info,4,10.7,Projet Professionnel ,Optionnel,,,,10,,,,,,,,,,,,
+Master Info,4,10.8,Numérisation 3D grande échelle,Optionnel,14,13,13,10,1,1,1,,,,,,,,,
+Master Info,4,10.9,Réseaux mobiles autonomes et essaims,Optionnel,10,10,10,10,1,1,1,,,,,,,,,
+Master Miage,1,ISI_02,Conduite de projet,Obligatoire,8,40,,70,1,3,,Joiron Céline,1,1,,52,,"161,00",192,"-31,00"
+Master Miage,1,ISI_02,Conduite de projet,Obligatoire,8,40,,70,1,3,,Groux Dominique,,2,,80,,"216,00",192,"24,00"
+Master Miage,1,INFO_01,Administration des SE,Optionnel,8,22,,23,1,1,,Le Mahec Gaël,"0,5","0,5",,17,,"227,00",192,"35,00"
+Master Miage,1,INFO_01,Administration des SE,Optionnel,8,22,,23,1,1,,Lazure Dominique,"0,5","0,5",,17,,"311,00",192,"119,00"
+Master Miage,1,INFO_02,Analyse et décision en entreprise,Obligatoire,8,22,,70,1,3,,Hifi Mhand,1,3,,78,,"196,00",192,"4,00"
+Master Miage,1,INFO_04,Architecture des SI ,Obligatoire,,30,,70,,3,,Lapujade Anne,,3,,90,,"288,10",192,"96,10"
+Master Miage,1,INFO_06,BD avancées,Optionnel,8,22,,23,1,1,,Brisoux Devendeville Laure,1,1,,34,,"215,46",192,"23,46"
+Master Miage,1,INFO_09,IHM,Optionnel,,30,,23,,1,,Guérin Jean-Luc,,1,,30,,"216,00",192,"24,00"
+Master Miage,1,GEO_01,Economie politique,Optionnel,8,22,,60,1,2,,Ruzé Emmanuel,1,2,,56,,"192,00",192,"0,00"
+Master Miage,1,GEO_05,Marketing,Optionnel,8,22,,60,1,2,,Boutillier Xavier,1,2,,56,,"158,00",0,
+Master Miage,1,SANTE_01,Analyse des systèmes physiques,Optionnel,,30,,10,0,1,,Bosche Jérôme,,1,,30,,"64,00",0,
+Master Miage,1,SANTE_04,Notions de base en anatomie,Optionnel,,30,,10,0,1,,,,,,,,,,
+Master Miage,1,TRANS_01,Anglais,Obligatoire,,30,,70,0,3,,Cauvin Evelyne,,3,,90,,"150,00",0,
+Master Miage,1,TRANS_02,Communication,Optionnel,8,22,,35,2,2,,Groux Dominique,2,2,,68,,"216,00",192,"24,00"
+Master Miage,1,TRANS_03,Découverte de la recherche,Obligatoire,8,22,,70,1,2,,Hifi Mhand,"0,5",1,,28,,"196,00",192,"4,00"
+Master Miage,1,TRANS_03,Découverte de la recherche,Obligatoire,8,22,,70,1,2,,Rosselle Marilyne,,1,,22,,"210,00",192,"18,00"
+Master Miage,1,TRANS_03,Découverte de la recherche,Obligatoire,8,22,,70,1,2,,Dequen Gilles,1,,,12,,"242,00",192,"50,00"
+Master Miage,1,TRANS_06,Statistiques,Optionnel,8,22,,35,1,1,,Ducay Stéphane,1,1,,34,,"34,00",0,
+Master Miage,2,ISI_01,Architecture client/serveur,Obligatoire,8,22,,23,2,2,,Semé David,1,1,,34,,"206,00",192,"14,00"
+Master Miage,2,ISI_03,Conduite du changement,Optionnel,8,22,,23,1,2,,Gérard François,1,1,,34,,"98,00",96,"2,00"
+Master Miage,2,ISI_04,Contrôle qualité,Optionnel,8,22,,23,0,1,,,,,,,,,,
+Master Miage,2,ISI_05,Ingénierie du logiciel,Obligatoire,8,22,,70,2,3,,Choplin Sébastien,2,3,,90,,"204,00",192,"12,00"
+Master Miage,2,INFO_03,Architecture Web des SI,Obligatoire,,30,,70,2,3,,Furst Frédéric,,3,,90,,"240,00",192,"48,00"
+Master Miage,2,INFO_05,ASI mobiles 1,Optionnel,,30,,23,,1,,Logé Christophe,,1,,30,,"30,00",0,
+Master Miage,2,INFO_07,Bio informatique 1,Optionnel,8,22,,12,1,1,,Pelloux Jérôme,"0,5","0,5",,17,,"17,00",0,
+Master Miage,2,INFO_08,Conception avancée des SI,Obligatoire,,30,,23,,2,,Lapujade Anne,,2,,60,,"288,10",192,"96,10"
+Master Miage,2,GEO_02,Gestion de production,Optionnel,8,22,,30,1,1,,Boutillier Xavier,1,1,,34,,"158,00",0,
+Master Miage,2,GEO_06,Marketing orienté Web,Obligatoire,8,22,,30,2,2,,Boutillier Xavier,2,2,,68,,"158,00",0,
+Master Miage,2,SANTE_02,Droit de la santé et bioéthique 1,Optionnel,,30,,12,,1,,Baudens Mélanie,,1,,30,,"30,00",0,
+Master Miage,2,SANTE_03,Instrumentation biomédicale 1,Optionnel,,30,,12,,1,,Aarabi Ardalan,,1,,30,,"30,00",0,
+Master Miage,2,TRANS_04,Découverte des laboratoires,Optionnel,8,22,,29,1,2,,Groux Dominique,1,1,,34,,"216,00",192,"24,00"
+Master Miage,2,TRANS_04,Découverte des laboratoires,Optionnel,8,22,,29,1,2,,Hifi Mhand,"0,5",1,,28,,"196,00",192,"4,00"
+Master Miage,2,TRANS_05,Droit du travail,Optionnel,8,22,,29,2,2,,Bourre Jean-Rémi,2,2,,68,,"68,00",0,
+Master Miage,3,ISI_09,Audit des SI,Obligatoire,8,22,,20,1,1,,Gérard François,1,1,,34,,"98,00",96,"2,00"
+Master Miage,3,ISI_12,Interopérabilité des SI (ETL),Obligatoire,8,22,,40,1,1,,Boulet Aurélien,1,1,,34,,"34,00",0,
+Master Miage,3,ISI_14,Conduite de projet agile,Obligatoire,8,22,,70,1,2,,Cojean Bruno,1,2,,56,,"56,00",0,
+Master Miage,3,INFO_16,Outils pour les systèmes décisionnels en entreprise,Obligatoire,8,22,,20,1,1,,,,,,,,,,
+Master Miage,3,INFO_18,Architecture des SI 2,Obligatoire,,30,,70,,2,,Lapujade Anne,,2,,60,,"288,10",192,"96,10"
+Master Miage,3,INFO_19,ASI Mobile 2,Optionnel,,30,,23,,1,,Guérin Jean-Luc,,1,,30,,"216,00",192,"24,00"
+Master Miage,3,INFO_20,Big data,Obligatoire,8,22,,20,1,1,,Carette Romuald,1,1,,34,,"68,00",0,
+Master Miage,3,INFO_21,Bio-informatique 2,Obligatoire,8,22,,7,1,1,,,,,,,,,,
+Master Miage,3,INFO_22,Gestion de réseaux de capteurs biomédicaux,Optionnel,8,22,,7,1,1,,,,,,,,,,
+Master Miage,3,INFO_23,IA,Obligatoire,8,22,,37,1,1,,Guérin Jean-Luc,1,1,,34,,"216,00",192,"24,00"
+Master Miage,3,INFO_27,Modélis. des pb en management et mkg,Obligatoire,8,22,,20,1,1,,,,,,,,,,
+Master Miage,3,INFO_28,Outils pour les données biomédicales,Optionnel,8,22,,7,1,1,,Gérard Olivier,1,1,,34,,"68,00",0,
+Master Miage,3,INFO_31,Web Design,Optionnel,8,22,,23,1,2,,Lerouge Ludovic,1,1,,34,,"34,00",0,
+Master Miage,3,INFO_32,Web x.0,Optionnel,8,22,,23,1,1,,Groux Dominique,1,1,,34,,"216,00",192,"24,00"
+Master Miage,3,GEO_09,Théories des organisations,Obligatoire,8,22,,40,1,1,,Ruzé Emmanuel,1,1,,34,,"192,00",192,"0,00"
+Master Miage,3,SANTE_06,Instrumentation biomédicale 2,Obligatoire,,30,,7,,1,,,,,,,,,,
+Master Miage,4,ISI_11,Progiciels de gestion intégrés,Obligatoire,8,22,,20,1,2,,Pecourt Jocelin,1,1,,34,,"34,00",0,
+Master Miage,4,ISI_15,Stratégie et management des SI,Obligatoire,8,22,,20,1,1,,Ruzé Emmanuel,1,1,,34,,"192,00",192,"0,00"
+Master Miage,4,ISI_16,Ingénierie des SI en santé,Obligatoire,8,22,,20,1,1,,Carette Romuald,1,1,,34,,"68,00",0,
+Master Miage,4,ISI_17,Management de la sécurité des SI,Optionnel,8,22,,23,1,1,,Choplin Sébastien,1,1,,34,,"204,00",192,"12,00"
+Master Miage,4,ISI_18,Outils pour la Business intelligence,Obligatoire,8,22,,20,1,1,,Cartry Christophe,1,1,,34,,"34,00",0,
+Master Miage,4,ISI_19,Workflows,Optionnel,8,22,,23,1,1,,Poirot Gilles,1,1,,34,,"34,00",0,
+Master Miage,4,INFO_17,Aide à la décision avancée,Obligatoire,8,22,,20,1,1,,,,,,,,,,
+Master Miage,4,INFO_25,Intelligence des systèmes biomédicaux,Obligatoire,8,22,,7,1,1,,Gérard Olivier,1,1,,34,,"68,00",0,
+,4,INFO_26,Internet des objets (IoT),Obligatoire,,30,,,,1,,Durand David,,1,,30,,"75,00",0,
+Master Miage,4,INFO_29,Recherche heuristique ,Obligatoire,8,22,,20,1,1,,,,,,,,,,
+Master Miage,4,GEO_08,Stratégie d'entreprise,Obligatoire,8,22,,60,1,2,,Ruzé Emmanuel,1,2,,56,,"192,00",192,"0,00"
+Master Miage,4,SANTE_05,Electrophysiologie,Obligatoire,,30,,7,,1,,,,,,,,,,
+Master Miage,4,SANTE_07,Télémédecine,Obligatoire,,30,,7,,1,,,,,,,,,,
+Master Miage,4,TRANS_08,Anglais,Obligatoire,,30,,67,,2,,Cauvin Evelyne,,2,,60,,"150,00",0,
+Master Miage,4,TRANS_09,Data Science,Obligatoire,8,22,,35,1,1,,Bosche Jérôme,1,1,,34,,"64,00",0,
+Master Miage,4,TRANS_10,Environnement socio-économique,Obligatoire,,30,,67,,2,,Barry Catherine,,1,,30,,"242,10",192,"50,10"
+Master Miage,4,TRANS_10,Environnement socio-économique,Obligatoire,,30,,67,,2,,Lapujade Anne,,1,,30,,"288,10",192,"96,10"
+Master Miage,AN,PRO_01,Projet Professionnel,Référentiel,,,,70,,,,,,,,,,,,
+Master Miage,AN,PRO_02,Etude de cas création d'entreprise,Obligatoire,,30,,3,,1,,Gérard François,,1,,30,,"98,00",96,"2,00"
+Master Miage,AN,PRO_03,Etude de cas thématique,Obligatoire,,30,,67,,2,,Lapujade Anne,,"0,67",,"20,1",,"288,10",192,"96,10"
+Master Miage,AN,PRO_03,Etude de cas thématique,Obligatoire,,30,,67,,2,,Barry Catherine,,"0,67",,"20,1",,"242,10",192,"50,10"
+Master Miage,AN,PRO_03,Etude de cas thématique,Obligatoire,,30,,67,,2,,Guérin Jean-Luc,,"0,,67",,,,"216,00",192,"24,00"
+Master Miage,AN,PRO_04,Projet professionnel,Référentiel,,,,70,,,,,,,,,,,,
+Master Miage,Foad,INFO_11,Programmation orientée objet avancée,,20,5,,,,2,,,,,,,,,,
+Master Miage,Foad,ISI_07,Méthodes orientées objet d'analyse et de conception,,20,5,,,,2,,,,,,,,,,
+Master Miage,Foad,GEO_04,Création/Jeux d'entreprise,,,48,,,,1,,Rosselle Marilyne,,1,,48,,"210,00",192,"18,00"
+Master Miage,Foad,C306 - ISI_05,Ingénierie du logiciel,,,20,,,,1,,Choplin Sébastien,,1,,20,,"204,00",192,"12,00"
+Master Miage,Foad,GEO_07,eCommerce et technologies,,,20,,,,1,,Choplin Sébastien,,1,,20,,"204,00",192,"12,00"
