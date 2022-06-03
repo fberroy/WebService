@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier cours{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+    <h3><br>Modifier le cours</h3>
+
+    {{ include('admin/cours/_form.html.twig', {'button_label': 'Mettre à jour'}) }}
+
+
+    </div>
+{% endblock %}

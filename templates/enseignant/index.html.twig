@@ -1,0 +1,98 @@
+{% extends 'ensBase.html.twig' %}
+
+{% block title %}Home	{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+
+{% for m in moi %}
+	 <br>
+	 <h3> {{ m.nom }} </h3><br>
+         <h3>Mes UC : </h3>
+	<h5>Nombre d'UC :  {{ m.nbUC }} </h5>
+	<h5>Nombre d'UC attribué :  {% for uc in mesUC %} {% if uc.id == m.id %} {{ uc.UCs }}  {% endif %} {% endfor %}
+{% endfor %}
+
+	
+    <h3> <br> Mes cours : </h3>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+		    <th>Nombre d'heure</th>
+		    <th>Nombre de groupe</th>
+		    <th>Année</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for cour in mesCours %}
+                <tr>
+                    <td>{{ cour[0].nomCours }}</td>
+		    <td>{{ cour.nbHeuresAtt}}</td>
+		    <td>{{ cour.nbGroupesAtt }}</td>
+		    <td>{{ cour.anneeVoeux }}</td>
+          <td style="text-align: right;">
+                        <a href="{{ path('app_ens_cours_show', {'id': cour[0].id}) }}"> <button type="button" class="btn btn-primary btn-sm">Voir</button></a>
+                    </td>
+                    
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="7">Pas de cours suivi trouvés dans la base de données</td>
+                </tr>
+            {% endfor %}
+
+
+	
+            </tbody>
+        </table>
+     
+
+        <div class="col">
+    <br></br>
+
+
+     <h3> Mes voeux : </h3>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nom du cours</th>
+		    <th>Nombre d'heure</th>
+		    <th>Nombre de groupe</th>
+		    <th>Année</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for cour in voeux %}
+                <tr>
+                    <td>{{ cour[0].nomCours }}</td>
+		    <td>{{ cour.nbHeuresAtt}}</td>
+		    <td>{{ cour.nbGroupesAtt }}</td>
+		    <td>{{ cour.anneeVoeux }}</td>
+          <td style="text-align: right;">
+                        <a href="{{ path('app_ens_cours_show', {'id': cour[0].id}) }}"> <button type="button" class="btn btn-primary btn-sm">Voir</button></a>
+                    </td>
+                    
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="7">Pas de cours suivi trouvés dans la base de données</td>
+                </tr>
+            {% endfor %}
+
+
+	
+            </tbody>
+        </table>
+     
+    <br></br>
+</div>	
+</div>
+{% endblock %}

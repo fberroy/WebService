@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}CoursEnseignant{% endblock %}
+
+{% block body %}
+    <h1>CoursEnseignant</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ cours_enseignant.id }}</td>
+            </tr>
+            <tr>
+                <th>Voeux</th>
+                <td>{{ cours_enseignant.Voeux ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>Enseigne</th>
+                <td>{{ cours_enseignant.Enseigne ? 'Yes' : 'No' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_cours_enseignant_index') }}">back to list</a>
+
+    <a href="{{ path('app_cours_enseignant_edit', {'id': cours_enseignant.id}) }}">edit</a>
+
+    {{ include('admin/cours_enseignant/_delete_form.html.twig') }}
+{% endblock %}

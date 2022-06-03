@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Cours index{% endblock %}
+
+{% block body %}
+    <h1>Liste des cours</h1>
+	<form class="d-flex">
+        	<input class="form-control me-sm-2" type="text" placeholder="Search">
+        	<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+     	 </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Intitulé</th>
+		<th>Type de Cours</th>
+		<th>Enseignants</th>
+                <th>Nombre d'heures</th>
+                <th>Nombre de Groupes</th>
+		<th>Nom du Groupes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for cour in cours %}
+            <tr>
+                <td><a href="{{ path('app_ens_cours_show', {'id': cour.id}) }}">{{ cour.nomCours }} - {{ cour.typeCours }}</a></td>
+                <td>{{ cour.typeCours }}</td>
+		<td>{{ cour.NbEnseignants }}</td>
+                <td>{{ cour.nbHeures }}</td>
+                <td>{{ cour.nbGroupes }}</td>
+		<td>{{ cour.nomGroupe }}</td>
+                <td>
+                    <a href="{{ path('app_cours_edit', {'id': cour.id}) }}" class="btn btn-secondary btn-sm">Modifier</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="7">Aucun cours trouvé</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_u_e_new') }}" class="btn btn-primary">Créer une nouvelle UE</a>
+{% endblock %}

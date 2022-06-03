@@ -1,0 +1,104 @@
+{% extends 'ensBase.html.twig' %}
+
+{% block title %}Liste des UE{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+    <h3><br>Liste des UE</h3>
+
+	
+<form class="d-flex">	
+<div class="container px-4">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 ">
+	<h4> Filtrer par nom : </h4><br>
+	<input class="form-control me-sm-2" type="text" method="get" name="recherche" value="{{ app.request.query.get("recherche") }}" placeholder="Rechercher ..."> <br> 
+     </div>
+    </div>
+    
+<div class="col">
+      <div class="p-3 ">
+
+			<div class="form-group ">
+			      <label for="exampleSelect1" class="form-label mt-4">Champ :</label>
+			      <select class="form-select" method="get" name="champ" id="exampleSelect1">
+				<option {% if app.request.query.get("champ") == "Intitule" %} selected {% endif %}> Intitule</option>
+				<option{% if app.request.query.get("champ") == "formation" %} selected {% endif %}>formation</option>
+				<option{% if app.request.query.get("champ") == "semestre" %} selected {% endif %}>semestre</option>
+				<option{% if app.request.query.get("champ") == "statut" %} selected {% endif %}>statut</option>
+				<option{% if app.request.query.get("champ") == "effectif" %} selected {% endif %}>effectif</option>
+			      </select>
+
+			
+
+			</div>
+	</div></div>
+	<div class="col ">
+     <div class="p-2">
+			
+		
+		<div class="form-check">
+			<br><br>
+			  <input class="form-check-input" type="radio" method="get" name="tri" id="exampleRadios1" value="croissant" {% if app.request.query.get("tri") == "croissant" or app.request.query.get("tri") == false %} checked="" {% endif %}>
+			  <label class="form-check-label" for="exampleRadios1">
+			    Croissant
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" method="get" name="tri" id="exampleRadios2" value="decroissant" {% if app.request.query.get("tri") == "decroissant" %} checked="" {% endif %} >
+			  <label class="form-check-label" for="exampleRadios2" >
+			    Décroissant
+			  </label>		
+	
+			<br></br>		
+		</form>		
+		</div>
+	</div>
+	</div>
+			
+		
+	<div class="col">
+      <div class="p-2 "><br><br>
+		<button class="btn btn-secondary my-2 my-sm-0" "type="submit">Rechercher</button>
+		</div>
+	</div>
+	    </div>
+	  </div>
+
+	      	
+	
+
+
+	      	
+	
+   
+    <table class="table">
+        <thead>
+            <tr scope="row">
+                <th>Intitule</th>
+                <th>Formation</th>
+                <th>Semestre</th>
+                <th>Statut</th>
+                <th>Effectif</th>
+
+            </tr>
+        </thead>
+        <tbody>
+        {% for u_e in u_es %}
+            <tr {% for ue in mesUE %} {% if u_e.id == ue.id %} style="background-color:#c3f5fa" {% endif %} {% endfor %}
+		>
+                <td><a href="{{ path('app_ens_u_e_show', {'id': u_e.id}) }}">{{ u_e.Intitule }}</a></td>
+                <td>{{ u_e.formation }}</td>
+                <td>{{ u_e.semestre }}</td>
+                <td>{{ u_e.statut }}</td>
+                <td>{{ u_e.effectif }}</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="7">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'ensBase.html.twig' %}
+
+{% block title %}Enseignant{% endblock %}
+
+{% block body %}
+<div class="container" ,style=" text-align: center;">
+{% for moi in m %}
+    <h3><br>{{ moi.nom }} {{ moi.prenom }}</h3>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Nom Prenom</th>
+                <td>{{ moi.nom }}</td>
+            </tr>
+           
+            <tr>
+                <th>Adresse mail</th>
+                <td>{{ moi.mail }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'UC</th>
+                <td>{{ moi.nbUC }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'UC attribué(s)</th>
+                <td>{{ moi.nbUCattribue }}</td>
+            </tr>
+            <tr>
+                <th>Département</th>
+                <td>{{ moi.nomDepartement }}</td>
+            </tr>
+            <tr>
+                <th>Statut</th>
+                <td>{{ moi.statutEnseignant }}</td>
+            </tr>
+        </tbody>
+    </table>
+<a href="{{path('app_ens_profil_edit', {'id': moi.id})}}" class="btn btn-secondary "> Modifier </a>
+<a href="{{path('app_ens_reportVoeux', {'id': moi.id})}}" class="btn btn-primary "> Reporter mes voeux pour l'année prochaine</a>
+	<br>
+	<table class="table">
+			<th>Enseignements assignés</th>
+			{% for m in moi.coursEnseignants %}
+				{% if m.anneeVoeux == annee[0].annee %}
+				<tr>
+				<td><a href="{{path('app_ens_cours_show', {'id': m.cours.id})}}">{{m.Cours.NomCours}}</a></td>
+				</tr>
+				{% endif %}
+			{% endfor %}
+	</table>
+
+
+
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Enseignant{% endblock %}
+
+{% block body %}
+<div class="container" ,style=" text-align: center;">
+    <h1>{{ enseignant.nom }}{{ enseignant.prenom }}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Nom</th>
+                <td>{{ enseignant.nom }}</td>
+            </tr>
+            <tr>
+                <th>Identifiant</th>
+                <td>{{ enseignant.identifiant }}</td>
+            </tr>
+            <tr>
+                <th>MotDePasse</th>
+                <td>{{ enseignant.motDePasse }}</td>
+            </tr>
+            <tr>
+                <th>Mail</th>
+                <td>{{ enseignant.mail }}</td>
+            </tr>
+            <tr>
+                <th>NbUC</th>
+                <td>{{ enseignant.nbUC }}</td>
+            </tr>
+            <tr>
+                <th>NbUCattribue</th>
+                <td>{{ mesUC }}</td>
+            </tr>
+            <tr>
+                <th>Departement</th>
+                <td>{{ enseignant.nomDepartement }}</td>
+            </tr>
+            <tr>
+                <th>Statut</th>
+                <td>{{ enseignant.statutEnseignant }}</td>
+            </tr>
+	    <tr>
+                <th>Archivage</th>
+                <td {% if enseignant.archive == 1 %} style="color:#ff8e83"> L'enseignant est archivé {% else %}style="color:#048019">  L'enseignant est en activité {% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+
+	  <a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary">Retour</a>
+
+    <a href="{{ path('app_enseignant_edit', {'id': enseignant.id}) }}"class="btn btn-primary">Modifier</a>
+
+	<table class="table">
+			<th>Ue assignées</th>
+			{% for CE in enseignant.coursEnseignants %}
+			<tr>
+			<td><a href="{{path('app_cours_show', {'id': CE.Cours.id})}}">{{CE.Cours.nomCours}}</a></td>
+			</tr>
+			{% endfor %}
+	</table>
+
+    </div>
+{% endblock %}

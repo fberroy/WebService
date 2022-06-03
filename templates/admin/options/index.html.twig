@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Options{% endblock %}
+
+{% block body %}
+
+<div class="container" style=" text-align: center;">
+<br>
+
+      
+<div class="row g-0">
+  <div class="col-sm-6 col-md-3"></div>
+  <div class="col-6 col-md-6">
+
+<form method="post" >
+    <h3 style=" text-align: left;">Changer d'année</h3><br>
+    <select name="annee" class="form-select">
+        {% for a in annee %} <option {% if a.enCours == true %} " selected="selected"  {% endif %}> {{ a.annee }} </option> {% endfor %} 
+	</select>
+		<br><input type="submit" style=" text-align: center" value="Changer année" class="btn btn-primary" />  <a href="{{ path('app_annee_new') }} "class="btn btn-primary">Nouvelle année</a></h3> 
+	</form>
+
+		<br><br>
+<!--IMPORT FICHIERS EXCEL-->
+
+{{ form_start(upload) }}
+	<div class="form-group">
+		 <div class="col">
+			<h2>Importer un fichier Excel</h2>
+	    		{{ form_row(upload.file) }}
+			{{form_widget(upload.send)}}
+		 </div>
+	 </div>
+{{ form_end(upload) }}
+
+{{ form_start(formEns) }}
+	<div class="form-group">
+		 <div class="col">
+			<h2>Importer un fichier Excel Enseignant</h2>
+	    		{{ form_row(formEns.fileEns) }}
+			{{form_widget(formEns.sendEns)}}
+		 </div>
+	 </div>
+{{ form_end(formEns) }}
+
+</div>
+  <div class="col-6 col-md-3"></div>
+</div>
+
+
+</div>
+{% endblock %}

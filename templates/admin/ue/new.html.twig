@@ -1,0 +1,104 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter une UE{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+{{ form_start(form) }}
+<!--AJOUT D'UNE UE-->
+    <h1>Ajouter une UE</h1>
+
+    <table class="table">
+        <tbody>
+	 <tr>
+                <th>Intitulé</th>
+                <td>{{ form_widget(form.Intitule) }}</td>
+            </tr>
+	<tr>
+                <th>Formation</th>
+                <td>{{ form_widget(form.formation) }}</td>
+            </tr>
+	<tr>
+                <th>Semestre</th>
+                <td>{{ form_widget(form.semestre) }}</td>
+            </tr>
+	<tr>
+                <th>Statut (Obligatoire ou Facultatif)</th>
+                <td>{{ form_widget(form.statut) }}</td>
+            </tr>
+	<tr>
+                <th>Effectif</th>
+                <td>{{ form_widget(form.effectif) }}</td>
+            </tr>
+	</tbody>
+</table>
+
+<!--AJOUT D'UN CM-->
+<h1>Ajouter un CM</h1>
+
+<div>Création de CM : {{ form_widget(form.checkCM) }}</div>
+
+<table class="table">
+        <tbody>
+	<tr>
+                <th>Nombre d'heure(s)</th>
+                <td>{{ form_widget(form.nbHeuresCM) }}</td>
+            </tr>
+	<tr>
+                <th>Nombre d'enseignant(s)</th>
+                <td>{{ form_widget(form.NbEnseignantsCM) }}</td>
+            </tr>
+	<tr>
+                <th>Nombres de groupe(s)</th>
+                <td>{{ form_widget(form.nbGroupesCM) }}</td>
+            </tr>
+	</tbody>
+</table>
+<!--AJOUT D'UN TD-->
+<h1>Ajouter un TD</h1>
+
+<div>Création de TD : {{ form_widget(form.checkTD) }}</div>
+
+<table class="table">
+        <tbody>
+	<tr>
+                <th>Nombre d'heure(s)</th>
+                <td>{{ form_widget(form.nbHeuresTD) }}</td>
+            </tr>
+	<tr>
+                <th>NOmbre d'enseignant(s)</th>
+                <td>{{ form_widget(form.NbEnseignantsTD) }}</td>
+            </tr>
+	<tr>
+                <th>Nombres de groupe(s)</th>
+                <td>{{ form_widget(form.nbGroupesTD) }}</td>
+            </tr>
+	</tbody>
+</table>
+<!--AJOUT D'UN TP-->
+<h1>Ajouter un TP</h1>
+
+<div>Création de TP : {{ form_widget(form.checkTP) }}</div>
+
+<table class="table">
+        <tbody>
+	<tr>
+                <th>Nombre d'heure(s)</th>
+                <td>{{ form_widget(form.nbHeuresTP) }}</td>
+            </tr>
+	<tr>
+                <th>Nombre d'enseignant(s)</th>
+                <td>{{ form_widget(form.NbEnseignantsTP) }}</td>
+            </tr>
+	<tr>
+                <th>Nombre de groupe(s)</th>
+                <td>{{ form_widget(form.nbGroupesTP) }}</td>
+            </tr>
+	</tbody>
+</table>
+</div>
+<!--BOUTONS DE NAVIGATION-->
+{{ form_widget(form.Valider) }}
+    <a href="#"onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+{{ form_end(form) }}
+{% endblock %}

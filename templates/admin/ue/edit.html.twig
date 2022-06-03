@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit UE{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+    <h3><br>Editer l'UE</h3>
+
+    {{ include('admin/ue/_form.html.twig', {'button_label': 'Update'}) }}
+
+	</div>
+{% endblock %}

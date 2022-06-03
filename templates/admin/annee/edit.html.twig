@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier une année{% endblock %}
+
+{% block body %}
+    <h1>Modifier l'année</h1>
+
+    {{ include('admin/annee/_form.html.twig', {'button_label': 'Mettre à jour'}) }}
+
+    <a href="#"onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+
+    {{ include('admin/annee/_delete_form.html.twig') }}
+{% endblock %}

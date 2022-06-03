@@ -1,0 +1,79 @@
+{% extends 'ensBase.html.twig' %}
+
+{% block title %}{{ cour.nomCours }}{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+    <h3><br>{{ cour.nomCours }}</h3>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Cours</th>
+                <td>{{ cour.nomCours }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'Heures</th>
+                <td>{{ cour.nbHeures }}</td>
+            </tr>
+            <tr>
+                <th>Type de Cours</th>
+                <td>{{ cour.typeCours }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'Enseignants max</th>
+                <td>{{ cour.NbEnseignants }}</td>
+            </tr>
+            <tr>
+                <th>Nombre de Groupes</th>
+                <td>{{ cour.nbGroupes }}</td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+	<table class="table">
+			<th>Enseignants assignés</th>
+			{% for CE in cour.coursEnseignants %}
+				{% if CE.anneeVoeux == annee %}
+					<tr>
+					<td><a href="{{path('app_ens_enseignant_show', {'id': CE.Enseignant.id})}}">{{CE.Enseignant.nom}}</a></td>
+					</tr>
+				{% endif %}
+			{% endfor %}
+	</table>
+<br>
+
+</div>
+{% if Inscription!=NULL and Voeu!=NULL %}
+
+	{% if Inscription[0].Validation==true %}
+
+	<div class="alert alert-dismissible alert-success">
+	  Votre demande est en attente de traitement par l'administrateur.
+	</div>
+
+	{% elseif Inscription[0].Validation==false and Voeu[0].Voeux==true %}
+	<div class="alert alert-dismissible alert-success">
+	  Vous êtes inscrit à ce cours.
+	</div><div class="container" ,style=" text-align: center;">
+
+	{% elseif (Inscription[0].Validation==false) and (Voeu[0].Voeux)==false %}
+	<div class="alert alert-dismissible alert-danger">
+	  Votre demande à été refusée par un administrateur.
+	</div>
+
+	{% endif %}
+
+{% else %}
+
+ <div class="container" ,style=" text-align: center;">
+<h3>Envoyer une demande d'enseignement de cette UE</h3>
+
+{{ include('admin/cours_enseignant/_form.html.twig', {'button_label': 'Envoyer la demande'}) }}
+<br>
+
+{% endif %}
+   
+<a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+
+{% endblock %}

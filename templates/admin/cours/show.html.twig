@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ cour.nomCours }}{% endblock %}
+
+{% block body %}
+<div class="container" ,style=" text-align: center;">
+    <h1>{{ cour.nomCours }}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Cours</th>
+                <td>{{ cour.nomCours }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'Heures</th>
+                <td>{{ cour.nbHeures }}</td>
+            </tr>
+            <tr>
+                <th>Type de Cours</th>
+                <td>{{ cour.typeCours }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'Enseignants max</th>
+                <td>{{ cour.NbEnseignants }}</td>
+            </tr>
+            <tr>
+                <th>Nombre de Groupes</th>
+                <td>{{ cour.nbGroupes }}</td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+	<table class="table">
+			<th>Enseignants assignés</th>
+			{% for CE in cour.coursEnseignants %}
+			{% if CE.anneeVoeux == annee %}
+			<tr>
+			<td><a href="{{path('app_enseignant_show', {'id': CE.Enseignant.id})}}">{{CE.Enseignant.nom}}</a> ({% if(CE.nbGroupesAtt)>1 %}{{CE.nbGroupesAtt}} groupes){% else %}{{CE.nbGroupesAtt}} groupe){% endif %}</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+	</table>
+
+    <a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+
+    <a href="{{ path('app_cours_edit', {'id': cour.id}) }}"class="btn btn-primary btn-sm">Modifier</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,151 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+   
+</style>
+
+	
+	<div class="container" ,style=" text-align: center;">
+<br>
+ 	 
+	<br> 
+    	<h3> Répartition des enseignants :</h3>
+    	{% include 'graph/prof.svg.twig' %}
+    	{% include 'graph/prof2.svg.twig' %}
+	
+    
+	</div>
+      </div>
+    </div>    	
+
+<div class="container" ,style=" text-align: center;">
+<!--CONFLITS-->	
+	<br>
+        <h3> Les conflits : <a href="{{ path('app_voirPlus') }}"class="btn btn-primary">Voir plus</a></h3>
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th> Enseignant(s) requis </th>
+		    <th> Enseignant(s) inscrit </th>
+		    <th> </th> <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for cours in conflits5 %}
+                <tr>
+                    <td><h5>{{ cours[0].nomCours }}</h5></td>
+		    <td><h5>{{ cours[0].NbEnseignants }}</h5></td>
+		    <td><h5>{{ cours[1]}}</h5></td>
+
+                    <td style="text-align: right;">
+                        <a href="{{ path('app_cours_show', {'id': cours[0].id}) }}"> <button type="button" class="btn btn-primary btn-sm">Voir</button></a>
+                    </td>
+                    <td style="text-align: right;">
+                        <a href="{{ path('app_cours_edit', {'id': cours[0].id}) }}"> <button type="button" class="btn btn-secondary btn-sm">Modifier</button></a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="7">Pas de manques trouvés dans la base de données</td>
+                </tr>
+            {% endfor %}
+
+
+	
+            </tbody>
+        </table>
+        
+
+        <div class="col">
+    <br></br>
+<!--MANQUES-->
+      <h3> Les manques :  <a href="{{ path('app_voirPlus2') }}"class="btn btn-primary">Voir plus</a>  </h3>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th> Enseignant(s) requis </th>
+		    <th> Enseignant(s) inscrit </th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for cours in cours5 %}
+                <tr>
+                    <td><h5>{{ cours[0].nomCours }}</h5></td>
+		    <td><h5>{{ cours[0].NbEnseignants }}</h5></td>
+		    <td><h5>{{ cours[1]}}</h5></td>
+
+                    <td style="text-align: right;">
+                        <a href="{{ path('app_cours_show', {'id': cours[0].id}) }}"> <button type="button" class="btn btn-primary btn-sm">Voir</button></a>
+                    </td>
+                    <td style="text-align: right;">
+                        <a href="{{ path('app_cours_edit', {'id': cours[0].id}) }}"> <button type="button" class="btn btn-secondary btn-sm">Modifier</button></a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="7">Pas de manques trouvés dans la base de données</td>
+                </tr>
+            {% endfor %}
+
+
+	
+            </tbody>
+        </table>
+	
+    </div>
+
+<div class="col">
+    <br></br>
+<!--VALIDATION DES VOEUX-->
+<h3> Voeux des enseignants :  <a href="{{ path('app_voirPlus3') }}"class="btn btn-primary">Voir plus</a>  </h3>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Enseignant</th>
+                    <th>UE</th>
+		    <th>Année</th>
+		    <th>Heures demandées</th>
+		    <th>Nombres de groupes</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for voeu in voeux %}
+                <tr>
+                    <td><h5>{{ voeu.Enseignant }}</h5></td>
+		    <td><h5>{{ voeu.Cours }}</h5></td>
+		    <td><h5>{{ voeu.AnneeVoeux }}</h5></td>
+		    <td><h5>{{ voeu.nbHeuresAtt }}</h5></td>
+		    <td><h5>{{ voeu.nbGroupesAtt }}</h5></td>
+
+                    <td style="text-align: right;">
+                        <a href="{{path('app_voeux_accepter',{'id': voeu.id})}}"> <button type="button" class="btn btn-success btn-sm">Accepter</button></a>
+                    </td>
+                    <td style="text-align: right;">
+                        <a href="{{path('app_voeux_refuser',{'id': voeu.id})}}"> <button type="button" class="btn btn-danger btn-sm">Refuser</button></a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="7">Pas de voeux trouvés dans la base de données</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+<div>
+
+
+
+{% endblock %}
+
+

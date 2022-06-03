@@ -1,0 +1,6 @@
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+	<div class="container" ,style=" text-align: center;">
+    <br><button class="btn btn-primary">{{ button_label|default('Save') }}</button> <a href="#" onclick="javascript:history.go(-1);"class="btn btn-primary">Retour</a>
+	</div>
+{{ form_end(form) }}

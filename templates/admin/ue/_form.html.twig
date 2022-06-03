@@ -1,0 +1,28 @@
+{{ form_start(form) }}
+    <table class="table">
+        <tbody>
+	 <tr>
+                <th>Intitulé</th>
+                <td>{{ form_widget(form.Intitule) }}</td>
+            </tr>
+	<tr>
+                <th>Formation</th>
+                <td>{{ form_widget(form.formation) }}</td>
+            </tr>
+	<tr>
+                <th>Semestre</th>
+                <td>{{ form_widget(form.semestre) }}</td>
+            </tr>
+	<tr>
+                <th>Statut (Obligatoire ou Facultatif)</th>
+                <td>{{ form_widget(form.statut) }}</td>
+            </tr>
+	<tr>
+                <th>Effectif</th>
+                <td>{{ form_widget(form.effectif) }}</td>
+            </tr>
+	</tbody>
+</table>
+
+<button type="submit" class="btn btn-primary">Enregistrer</button>  <a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary">Retour</a>
+{{ form_end(form) }}

@@ -1,0 +1,52 @@
+{% extends 'ensBase.html.twig' %}
+
+{% block title %}Enseignant{% endblock %}
+
+{% block body %}
+<div class="container" ,style=" text-align: center;">
+    <h3><br>{{ enseignant.nom }}{{ enseignant.prenom }}</h3>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Nom Prénom</th>
+                <td>{{ enseignant.nom }}</td>
+            </tr>
+            
+            
+            <tr>
+                <th>Mail</th>
+                <td>{{ enseignant.mail }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'UC</th>
+                <td>{{ enseignant.nbUC }}</td>
+            </tr>
+            <tr>
+                <th>Nombre d'UC attribué(s)</th>
+                <td>{{ mesUC }}</td>
+            </tr>
+            <tr>
+                <th>Département</th>
+                <td>{{ enseignant.nomDepartement }}</td>
+            </tr>
+            <tr>
+                <th>Statut</th>
+                <td>{{ enseignant.statutEnseignant }}</td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+	<table class="table">
+			<th>Cours assignées</th>
+			{% for CE in enseignant.coursEnseignants %}
+			<tr>
+			<td><a href="{{path('app_ens_cours_show', {'id': CE.Cours.id})}}">{{CE.Cours.nomCours}}</a></td>
+			</tr>
+			{% endfor %}
+	</table>
+
+    <a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+
+</div>    
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ u_e.Intitule }}{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+    <h1>{{ u_e.Intitule }}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Intitule</th>
+                <td>{{ u_e.Intitule }}</td>
+            </tr>
+            <tr>
+                <th>Formation</th>
+                <td>{{ u_e.formation }}</td>
+            </tr>
+            <tr>
+                <th>Semestre</th>
+                <td>{{ u_e.semestre }}</td>
+            </tr>
+            <tr>
+                <th>Statut</th>
+                <td>{{ u_e.statut }}</td>
+            </tr>
+            <tr>
+                <th>Effectif</th>
+                <td>{{ u_e.effectif }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+	<br>
+	<table class="table">
+			<th>Cours Associés</th>
+			<th>Enseignants inscrits</th>
+			{% for  cours in u_e.cours %}
+			<tr>
+			<td><a href="{{ path('app_ens_cours_show',{'id': cours.id}) }}">{{ cours.NomCours }}</a></td>
+			<td>
+			{% for coursEns in cours.coursEnseignants %}
+			{% if coursEns.anneeVoeux == annee %}
+			<a href="{{ path('app_ens_enseignant_show',{'id':coursEns.Enseignant.id}) }}">{{ coursEns.Enseignant }}</a>
+			{% endif %}
+			{% endfor %}
+			</td>
+			</tr>
+			{% endfor %}
+	</table>
+
+    <a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+ </div>
+{% endblock %}

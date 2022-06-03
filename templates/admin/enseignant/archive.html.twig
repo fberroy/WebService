@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Archives{% endblock %}
+
+{% block body %}
+
+<div class="container" ,style=" text-align: center;">
+	<br>
+	<a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+    
+<h1><br>Liste des enseignants</h1>
+<br>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom Prenom </th>
+		<th>NbUC</th>
+                <th>Departement</th>
+                <th>Statut</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for enseignant in enseignants %}
+            <tr>
+
+                <td><a href="{{ path('app_enseignant_show', {'id': enseignant.id}) }}">{{ enseignant.nom }} {{ enseignant.prenom }}</a></td>  
+                <td>{{ enseignant.nbUC }}</td>
+                <td>{{ enseignant.nomDepartement }}</td>
+                <td>{{ enseignant.statutEnseignant }}</td>
+                <td>
+                    <a href="{{ path('app_enseignant_edit', {'id': enseignant.id}) }}"class="btn btn-secondary btn-sm">Modifier</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="12">Aucun enseignant trouvé.</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono&display=swap');
+
+svg text {
+  font-family: 'Fira Sans', italic;
+ 
+ 
+}
+
+svg.pie .portion:nth-of-type(5n+1) { fill: #5ed9c8; }  
+svg.pie .portion:nth-of-type(5n+2) { fill: #ebe67b; }
+svg.pie .portion:nth-of-type(5n+3) { fill: #f95e5e; }
+svg.pie .portion:nth-of-type(5n+4) { fill: #110769; }
+svg.pie .portion:nth-of-type(5n+0) { fill: #6D6875; }
+svg.pie .portion:nth-of-type(5n+5) { fill: #f9991d; }
+svg.pie .portion:nth-of-type(5n+6) { fill: #ff00fb; }
+
+
+}
+
+svg.pie .portion {
+  transition: transform 200ms ease-in-out;
+}
+
+svg.pie .portion:hover {
+  transform: scale(1.04);
+  filter:brightness(75%);	
+}
+
+svg.pie .portion:nth-of-type(5n+1) { fill: #5ed9c8; }
+svg.pie .portion:nth-of-type(5n+2) { fill: #ebe67b; }
+svg.pie .portion:nth-of-type(5n+3) { fill: #f95e5e; }
+svg.pie .portion:nth-of-type(5n+4) { fill: #110769; }
+svg.pie .portion:nth-of-type(5n+5) { fill: #110769; }
+svg.pie .portion:nth-of-type(5n+6) { fill: #f9991d; }
+svg.pie .portion:nth-of-type(5n+0) { fill: #ff00fb; }
+
+svg.pie .label {
+  font-size: 10px;
+  fill: #666666;
+}
+svg.pie .label-line {
+  stroke: lightgrey;
+ 
+}

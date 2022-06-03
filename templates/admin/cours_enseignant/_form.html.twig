@@ -1,0 +1,17 @@
+{{ form_start(form) }}
+	<table class="table">
+        <tbody>
+                <th>Nombre d'heures à enseigner</th>
+                <td>{{ form_widget(form.nbHeuresAtt) }}</td>
+            </tr>
+	<tr>
+                <th>Nombre Groupes à prendre en charge</th>
+                <td>{{ form_widget(form.nbGroupesAtt) }}</td>
+            </tr>
+	</tbody>
+</table>
+    <button class="btn btn-secondary btn-sm">{{ button_label|default('Save') }}</button>  
+{{ form_end(form) }}
+
+
+

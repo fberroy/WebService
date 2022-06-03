@@ -1,0 +1,38 @@
+{% extends 'ensBase.html.twig' %}
+
+{% block title %}Edition du profil{% endblock %}
+
+{% block body %}
+<div class="container" ,style=" text-align: center;">
+    <h3><br>Modifier mon Profil</h3>
+
+{{ form_start(form) }}
+<table class="table">
+        <tbody>
+	 <tr>
+                <th>Nom</th>
+                <td>{{ form_widget(form.nom) }}</td>
+            </tr>
+
+                <th>Adresse Mail</th>
+                <td>{{ form_widget(form.mail) }}</td>
+            </tr>
+	<tr>
+                <th>Nombre d'UC</th>
+                <td>{{ form_widget(form.nbUC) }}</td>
+            </tr>
+	<tr>
+                <th>Département</th>
+                <td>{{ form_widget(form.nomDepartement) }}</td>
+            </tr>
+	<tr>
+                <th>Statut</th>
+                <td>{{ form_widget(form.statutEnseignant) }}</td>
+            </tr>
+	</tbody>
+</table>
+<button type="submit" class="btn btn-success">Enregistrer</button>
+<a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary">Retour</a>
+{{ form_end(form) }}
+</div>
+{% endblock %}

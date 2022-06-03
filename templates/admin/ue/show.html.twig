@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ u_e.Intitule }}{% endblock %}
+
+{% block body %}
+ <div class="container" ,style=" text-align: center;">
+    <h1>{{ u_e.Intitule }}</h1>
+
+    <table class="table">
+            <tr>
+                <th>Intitule</th>
+                <td>{{ u_e.Intitule }}</td>
+            </tr>
+            <tr>
+                <th>Formation</th>
+                <td>{{ u_e.formation }}</td>
+            </tr>
+            <tr>
+                <th>Semestre</th>
+                <td>{{ u_e.semestre }}</td>
+            </tr>
+            <tr>
+                <th>Statut</th>
+                <td>{{ u_e.statut }}</td>
+            </tr>
+            <tr>
+                <th>Effectif</th>
+                <td>{{ u_e.effectif }}</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+	<br>
+	<table class="table">
+			<th>Cours de cette UE</th>
+			<th>Enseignants inscrits</th>
+			{% for cours in u_e.Cours %}
+			<tr>
+			<td><a href="{{path('app_cours_show', {'id': cours.id})}}">{{cours.nomCours}}</a> </td>
+			<td>
+			{% for CE in cours.coursEnseignants %}
+				{% if CE.anneeVoeux == annee %}
+					<a href="{{path('app_enseignant_show', {'id': CE.enseignant.id})}}">{{CE.enseignant}}</a>
+				{% endif %}
+			{% endfor %}
+			</td>
+			</tr>
+			{% endfor %}
+	</table>
+    <a href="#" onclick="javascript:history.go(-1);"class="btn btn-secondary btn-sm">Retour</a>
+
+    <a href="{{ path('app_u_e_edit', {'id': u_e.id}) }}"class="btn btn-primary btn-sm">Modifier</a>
+
+   </div>
+{% endblock %}

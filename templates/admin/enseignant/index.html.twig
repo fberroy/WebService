@@ -1,0 +1,116 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}menu {% endblock %}
+
+{% block body %}
+
+ <div class="container" ,style=" text-align: center;">
+<br>
+<h2>Liste des enseignant</h2>
+<p style="text-align:center">
+Ajouter un nouvel enseignant : <a href="{{path('app_enseignant_new')}}" class="btn btn-primary"> Créer un enseignant</a> <br><br>
+Voir les enseignant archivés : <a href="{{path('app_enseignant_archive')}}" class="btn btn-primary">Voir les archives</a>
+</p>
+
+<div>
+		<form class="d-flex">	
+<div class="container px-4">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 ">
+	<h3> Filtrer par nom : </h3><br>
+	<input class="form-control me-sm-2" type="text" method="get" name="recherche" value="{{ app.request.query.get("recherche") }}" placeholder="Rechercher ..."> <br> 
+	
+     </div>
+    </div>
+    <div class="col">
+
+		<div class="container px-4 ">
+  <div class="row gx-5 ">
+    <div class="col ">
+     <div class="p-3">
+			<div class="form-group ">
+			      <label for="exampleSelect1" class="form-label mt-4">Champ :</label>
+			      <select class="form-select" method="get" name="champ" id="exampleSelect1">
+				<option {% if app.request.query.get("champ") == "nom" %} selected {% endif %}> nom</option>
+				<option{% if app.request.query.get("champ") == "nombre d'UC" %} selected {% endif %}>nombre d'UC</option>
+				<option{% if app.request.query.get("champ") == "Departement" %} selected {% endif %}>Departement</option>
+				<option{% if app.request.query.get("champ") == "Statut" %} selected {% endif %}>Statut</option>
+				<option{% if app.request.query.get("champ") == "UC attribué" %} selected {% endif %}>UC attribué</option>
+			      </select>
+
+			
+
+			</div>
+	</div></div>
+
+    <div class="col ">
+     <div class="p-2">
+			
+		
+		<div class="form-check">
+			<br><br>
+			  <input class="form-check-input" type="radio" method="get" name="tri" id="exampleRadios1" value="croissant" {% if app.request.query.get("tri") == "croissant" or app.request.query.get("tri") == false %} checked="" {% endif %}>
+			  <label class="form-check-label" for="exampleRadios1">
+			    Croissant
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" method="get" name="tri" id="exampleRadios2" value="decroissant" {% if app.request.query.get("tri") == "decroissant" %} checked="" {% endif %} >
+			  <label class="form-check-label" for="exampleRadios2" >
+			    Décroissant
+			  </label>		
+	
+			<br></br>		
+		</form>		
+		</div>
+	</div>
+	</div>
+			
+		
+	<div class="col">
+      <div class="p-2 "><br><br>
+		<button class="btn btn-secondary my-2 my-sm-0" "type="submit">Rechercher</button>
+		</div>
+	</div>
+	    </div>
+	  </div>
+	
+
+
+	      	
+	</div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom Prenom </th>
+		<th>NbUC</th>
+                <th>NbUCattribue</th>
+                <th>Departement</th>
+                <th>Statut</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for enseignant in enseignants %}
+            <tr>
+
+                <td><a href="{{ path('app_enseignant_show', {'id': enseignant.id}) }}">{{ enseignant.nom }} {{ enseignant.prenom }}</a></td>  
+                <td>{{ enseignant.nbUC }}</td>
+                <td>{% for i in attrib %} {% if (i|length == 2) and (i.clef == enseignant.id) %} {{ i.UC }}   {% endif %} {% endfor %} </td>
+                <td>{{ enseignant.nomDepartement }}</td>
+                <td>{{ enseignant.statutEnseignant }}</td>
+                <td>
+                    <a href="{{ path('app_enseignant_edit', {'id': enseignant.id}) }}"class="btn btn-secondary btn-sm">Modifier</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="12">Aucun enseignant trouvé.</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
